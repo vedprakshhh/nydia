@@ -13,7 +13,6 @@ export default function Services() {
         <div className="grid md:grid-cols-3 gap-6">
           {siteContent.solutions.map((s, i) => (
             <AnimatedCard key={s.name} delay={i * 0.06} className="svc-card">
-              <div className="text-neutral-500 text-xs uppercase tracking-widest mb-1">SERVICE</div>
               <h3 className="text-xl font-semibold">{s.name}</h3>
               <p className="text-neutral-600 mt-2">{s.tagline}</p>
               <ul className="mt-4 space-y-2 text-neutral-700">
